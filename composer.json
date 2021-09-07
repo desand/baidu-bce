@@ -12,13 +12,13 @@
     "require": {
         "php": ">=5.0"
     },
-    "repositories": {     // 更改镜像源，国外的太慢
+    "repositories": {
         "packagist": {
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
         }
     },
-    "autoload": {   // 添加自动加载
+    "autoload": {
         "psr-4": {
         }
     }
