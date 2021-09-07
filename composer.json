@@ -1,0 +1,25 @@
+{
+    "name": "desandchen/baidu-bce",
+    "description": "baidu-bce",
+    "authors": [
+        {
+            "name": "desand",
+            "email": "desand@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "minimum-stability":"stable",
+    "require": {
+        "php": ">=5.0"
+    },
+    "repositories": {     // 更改镜像源，国外的太慢
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload": {   // 添加自动加载
+        "psr-4": {
+        }
+    }
+}
