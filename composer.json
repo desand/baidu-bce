@@ -7,22 +7,23 @@
             "email": "desand@qq.com"
         }
     ],
-    "license": "Apache-2.0",
+    "type": "library",
+    "license": "MIT",
     "require": {
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.3",
         "psr/log": "^1.0",
-        "monolog/monolog": "^1.26"
+        "monolog/monolog": "^2.1"
     },
     "autoload": {
         "psr-4": {
             "BaiduBce\\": "src"
         }
     },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
-    }
+    },
+    "prefer-stable": true
 }
