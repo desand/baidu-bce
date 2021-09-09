@@ -11,14 +11,13 @@
     "license": "MIT",
     "require": {
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^3.8",
         "psr/log": "^1.0",
         "monolog/monolog": "^1.26"
     },
     "autoload": {
         "psr-4": {
-            "BaiduBce\\": "src",
-            "Guzzle\\": "vendor/guzzlehttp/guzzle/src"
+            "BaiduBce\\": "src"
         }
     },
     "extra": {

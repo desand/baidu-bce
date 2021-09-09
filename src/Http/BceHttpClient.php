@@ -26,11 +26,11 @@ use BaiduBce\Log\LogFactory;
 use BaiduBce\Util\HttpUtils;
 use BaiduBce\Util\DateUtils;
 
-use Guzzle\Http\Client;
-use Guzzle\Log\MessageFormatter;
-use Guzzle\Plugin\Log\LogPlugin;
-use Guzzle\Http\EntityBody;
-use Guzzle\Http\ReadLimitEntityBody;
+use GuzzleHttp\Http\Client;
+use GuzzleHttp\Log\MessageFormatter;
+use GuzzleHttp\Plugin\Log\LogPlugin;
+use GuzzleHttp\Http\EntityBody;
+use GuzzleHttp\Http\ReadLimitEntityBody;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
