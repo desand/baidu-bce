@@ -12,9 +12,12 @@
     "require": {
     },
     "autoload": {
-        "psr-2": {
-            "BaiduBce\\": ""
-        }
+        "psr-4": {
+            "BaiduBce\\": "src"
+        },
+        "files": [
+            "vendor/autoload.php"
+        ]
     },
     "extra": {
         "branch-alias": {
