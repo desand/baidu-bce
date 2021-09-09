@@ -26,11 +26,11 @@ use BaiduBce\Log\LogFactory;
 use BaiduBce\Util\HttpUtils;
 use BaiduBce\Util\DateUtils;
 
-use GuzzleHttp\Http\Client;
-use GuzzleHttp\Log\MessageFormatter;
-use GuzzleHttp\Plugin\Log\LogPlugin;
-use GuzzleHttp\Http\EntityBody;
-use GuzzleHttp\Http\ReadLimitEntityBody;
+use Guzzle\Http\Client;
+use Guzzle\Log\MessageFormatter;
+use Guzzle\Plugin\Log\LogPlugin;
+use Guzzle\Http\EntityBody;
+use Guzzle\Http\ReadLimitEntityBody;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
@@ -148,7 +148,7 @@ class BceHttpClient
         $entityBody = null;
         if ($headers[HttpHeaders::CONTENT_LENGTH] == 0) {
             //if passing a stream and content length is 0, guzzle will remove
-            //"Content-Length:0" from header, to work around this, we have to 
+            //"Content-Length:0" from header, to work around this, we have to
             //set body to a empty string
             $entityBody = "";
         } else if (is_resource($body)) {
