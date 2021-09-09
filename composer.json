@@ -1,10 +1,10 @@
 {
-    "name": "desandchen/baidu-bce",
+    "name": "desand/baidu-bce",
     "description": "baidu-bce",
     "authors": [
         {
-            "name": "desandchen",
-            "email": "desandchen@qq.com"
+            "name": "desand",
+            "email": "desand@qq.com"
         }
     ],
     "license": "Apache-2.0",
