@@ -18,12 +18,8 @@
         }
     },
     "autoload": {
-        "files": [
-            "Services/Vca/VcaClient.php",
-            "Bce.php",
-            "BceBaseClient.php",
-            "BceClientConfigOptions.php",
-            "BceHttpResponse.php"
-        ]
+        "psr-4": {
+            "BaiduBce\\": "src/"
+        }
     }
 }
