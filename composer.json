@@ -10,14 +10,10 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "ext-json": "*",
-        "psr/log": "^1.0",
-        "monolog/monolog": "^1.26"
     },
     "autoload": {
-        "psr-4": {
-            "BaiduBce\\": "src",
-            "Guzzle\\": "libs/guzzlehttp/guzzle/src"
+        "psr-2": {
+            "BaiduBce\\": ""
         }
     },
     "extra": {
