@@ -18,7 +18,7 @@
     "autoload": {
         "psr-4": {
             "BaiduBce\\": "src",
-            "Guzzle": "vendor/guzzlehttp/guzzle/src"
+            "Guzzle\\": "vendor/guzzlehttp/guzzle/src"
         }
     },
     "extra": {
