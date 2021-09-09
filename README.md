@@ -14,7 +14,7 @@
 ## Installation
 
 ```bash
-composer require desand/baidu-bce -vvv
+composer require desandchen/baidu-bce -vvv
 ```
 
 
