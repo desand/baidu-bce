@@ -18,7 +18,12 @@
         }
     },
     "autoload": {
-        "psr-4": {
-        }
+        "files": [
+            "Services/Vca/VcaClient.php",
+            "Bce.php",
+            "BceBaseClient.php",
+            "BceClientConfigOptions.php",
+            "BceHttpResponse.php"
+        ]
     }
 }
